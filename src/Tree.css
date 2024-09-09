@@ -1,0 +1,34 @@
+.node {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.id {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #4CAF50;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.children {
+    display: flex;
+    justify-content: center;
+}
+
+.left-child, .right-child {
+    position: relative;
+    padding-top: 20px;
+}
+.left-child {
+    margin-right: 20px;
+}
+.right-child {
+    margin-left: 20px;
+}
